@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "3dceaae8-17d1-4100-9179-e60fefec224b",
+		"name": "SWEN902_LAB2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23944722"
+	},
+	"item": [
+		{
+			"name": "POST_NEWITEM",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\":\"walk dog\",\r\n  \"isComplete\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7186/todoitems",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7186",
+					"path": [
+						"todoitems"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT_ITEM",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"feed fish\",\r\n  \"isComplete\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7186/todoitems/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7186",
+					"path": [
+						"todoitems",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE_ITEMBYID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"name\": \"feed fish\",\r\n  \"isComplete\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7186/todoitems/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7186",
+					"path": [
+						"todoitems",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_ALLTODOITEMS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7186/todoitems",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7186",
+					"path": [
+						"todoitems"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_TODOITEMBYID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7186/todoitems/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7186",
+					"path": [
+						"todoitems",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
