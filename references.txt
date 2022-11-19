@@ -1,0 +1,4 @@
+SmartBear (2022) Software Testing Methodologies. Available at: https://smartbear.com/learn/automated-testing/software-testing-methodologies/ (Accessed 19 November 2022)
+
+
+Katalon (2022) Automation Testing Tools. Available at: https://katalon.com/resources-center/blog/automation-testing-tools (Accessed 19 November 2022)
