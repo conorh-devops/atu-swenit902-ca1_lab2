@@ -15,6 +15,16 @@ namespace SWEN902WebApp.Tests
             Assert.Equal("Hello World!", response);
         }
 
+        [Fact]
+        public async Task TestCreateItem()
+        {
+            await using var application = new WebApplicationFactory<Program>();
+            using var client = application.CreateClient();
+
+            var response = await client.GetStringAsync("/");
+            Assert.Equal("Hello World!", response);
+        }
+
     }
 
 }
