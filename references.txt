@@ -5,6 +5,16 @@ Katalon (2022) Automation Testing Tools. Available at: https://katalon.com/resou
 
 Postman (2022) Automated Testing - Understanding, designing, and setting up an effective automated testing strategy. Available at: https://voyager.postman.com/doc/automated-testing-whitepaper-postman.pdf (Accessed 19 November 2022)
 
-xUnit (2022) Getting started with xUnit.net Available at: https://xunit.net/docs/getting-started/netfx/visual-studio (Accessed 19 November 2022)
+xUnit (2022) Getting started with xUnit.net. Available at: https://xunit.net/docs/getting-started/netfx/visual-studio (Accessed 19 November 2022)
 
-Postman (2022) Getting Started Available at: https://learning.postman.com/docs/getting-started/introduction/ (Accessed 19 November 2022)
+Postman (2022) Getting Started. Available at: https://learning.postman.com/docs/getting-started/introduction/ (Accessed 19 November 2022)
+
+Anderson, R and Dykstra, T (2022) Tutorial: Create a minimal web API with ASP.NET Core. Available at: https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-7.0&tabs=visual-studio (Accessed 19 November 2022)
+
+Anderson, R and Bin Hasan, F (2022) Unit and integration tests in Minimal API apps. Available at: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/test-min-api?view=aspnetcore-7.0 (Accessed 19 November 2022)
+
+Microsoft (2022) Testing in .NET. Available at: https://learn.microsoft.com/en-us/dotnet/core/testing/ (Accessed 19 November 2022)
+
+Postman (2022) Automated testing with Postman. Available at: https://www.postman.com/automated-testing/#:~:text=Postman%20can%20be%20used%20to,human%20error%20and%20streamlines%20testing. (Accessed 19 November 2022)
+
+
