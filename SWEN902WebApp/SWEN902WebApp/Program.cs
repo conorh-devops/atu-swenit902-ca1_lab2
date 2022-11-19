@@ -6,6 +6,8 @@ builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList")
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 
+app.MapGet("/", () => "Hello World!");
+
 RouteGroupBuilder todoItems = app.MapGroup("/todoitems");
 
 todoItems.MapGet("/", GetAllTodos);
@@ -68,3 +70,7 @@ static async Task<IResult> DeleteTodo(int id, TodoDb db)
 
     return TypedResults.NotFound();
 }
+
+
+// Make the implicit Program class public so test projects can access it
+public partial class Program { }
